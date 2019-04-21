@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+body .ui-corner-all {
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important
+}
+
+body .ui-corner-top, .ui-corner-bottom, .ui-corner-left, .ui-corner-right {
+    -moz-border-radius-topleft: 0 !important;
+    -webkit-border-top-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    -moz-border-radius-topright: 0 !important;
+    -webkit-border-top-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
